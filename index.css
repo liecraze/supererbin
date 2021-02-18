@@ -47,6 +47,7 @@ header table {
 }
 #logo {
     width:20%;
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 #navigation {
     width:80%;
@@ -135,11 +136,11 @@ header table {
     justify-content:center;
     text-align:left;
     padding:0px 8%;
-    background:linear-gradient(0deg,rgba(255, 44, 90, 0.4),rgba(2255, 44, 90, 0.4)),url("img/DieSupererbin.jpg") center center;
+    background:linear-gradient(0deg,rgba(255, 44, 90, 0.4),rgba(2255, 44, 90, 0.4)),url("img/SG.png") center center;
 }
 #oben h1 {
     font-size:45px;
-    word-wrap:break-word;
+   
 }
 #oben table {
     width:70%;
@@ -341,6 +342,9 @@ header table {
     border: 7px solid rgb(255, 44, 90);
 }
 
+#staffel td {
+    padding: 10px; 
+}
 
 #contact {
     width:92vw;
