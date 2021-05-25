@@ -445,6 +445,10 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
+hr {
+    border: 0px solid white; 
+}
+
 @media (max-width: 1000px){
     #photos {
     columns:1;
@@ -570,4 +574,12 @@ button:focus {
         text-align:center;
         padding:15px 0px;
     }
+
+   hr 
+   {
+       border: 1px solid black;
+       margin-top: 20px; 
+   }
+
 }
+
